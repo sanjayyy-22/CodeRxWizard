@@ -11,6 +11,12 @@ A Streamlit-based web application that processes medical report images (e.g., pr
   - For non-prescriptions: Doctor, patient, contact info, and date.
 - Runs in Google Colab with ngrok for easy access.
 
+## Fine tuning
+  - Fine-tuning was used to train a TinyLlama model with a LoRA adapter on the truehealth/medicationqa dataset to correct misspelled medication names and provide explanations (e.g., correcting "Tab. Augmentin" to "Amoxicillin/Clavulanate").
+    
+## Use of Fine-Tuning
+It enabled the model to accurately identify and explain correct medication names from OCR-extracted data, enhancing the app’s ability to verify prescriptions before displaying or generating PDF reports.
+
 ## Screenshots
 
 ### Home Page
