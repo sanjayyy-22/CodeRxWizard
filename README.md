@@ -20,7 +20,7 @@ It enabled the model to accurately identify and explain correct medication names
 ## Screenshots
 
 ### Home Page
-![Home Page](screenshots/ui_home.png)
+![Home Page](screenshots/home_page.png)
 *Upload an image to start processing.*
 
 ### Prescription Output
